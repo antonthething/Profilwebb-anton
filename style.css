@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Mojangles';
+    src: url('mojangles-extended.otf') format('opentype');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+    font-family: 'Mojangles';
+    margin: 0;
+    padding: ;
+    background: linear-gradient(to bottom, #3caeb9, #40ab82);
+}   
+
+.textStyle {
+    stroke: #2e5450;
+    stroke-width: 5;
+    padding: 20px;
+    text-shadow: 1px 1px 1px #0b1f1b73;
+}
+
+.title {
+    text-align: center;
+    text-decoration-color: aquamarine;
+    stroke: #2e5450;
+    stroke-width: 5;
+    padding: 20px;
+    text-shadow: 1px 1px 1px #0b1f1b73;
+}
