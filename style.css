@@ -15,17 +15,49 @@ body {
 }   
 
 .textStyle {
-    stroke: #2e5450;
-    stroke-width: 5;
     padding: 20px;
+    margin: 10px;
     text-shadow: 1px 1px 1px #0b1f1b73;
+    border: 3px solid #075e4c;
+    border-radius: 10px;
+    background-color: #10182e45;
 }
 
 .title {
     text-align: center;
     text-decoration-color: aquamarine;
-    stroke: #2e5450;
-    stroke-width: 5;
     padding: 20px;
     text-shadow: 1px 1px 1px #0b1f1b73;
+}
+
+.sneak-gif {
+  position: fixed;
+  bottom: -3px;
+  opacity: 0.4;
+  animation: moveAcrossScreen 17s linear infinite;
+ }
+ 
+ @keyframes moveAcrossScreen {
+  0%   
+  {
+    transform: translateX(-100%);
+  }
+  80%, 100% 
+  {
+    transform: translateX(100vw);
+  }
+}
+
+.ekan-mii {
+  position: absolute;
+  bottom: 407px;
+  right: 170px;
+  opacity: 0.6;
+  width: 180px;
+ }
+
+ .yellowText {
+  color: rgb(255, 255, 0);
+  text-shadow: 1.7px 1.7px 0px #0b1f1bb1;
+font-size: 20px;
 }
