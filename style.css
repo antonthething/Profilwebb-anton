@@ -9,10 +9,16 @@ html {
 
 body {
     font-family: 'Mojangles';
+    color: black;
     margin: 0;
-    padding: ;
+    padding: 0;
     background: linear-gradient(to bottom, #3caeb9, #40ab82);
 }   
+
+.dark {
+    background: linear-gradient(to bottom, #1a1a1a, #333333);
+    color: white;
+}
 
 .textStyle {
     padding: 20px;
@@ -34,13 +40,13 @@ body {
   position: fixed;
   bottom: -3px;
   opacity: 0.4;
-  animation: moveAcrossScreen 17s linear infinite;
+  animation: moveAcrossScreen 10s linear infinite;
  }
  
  @keyframes moveAcrossScreen {
   0%   
   {
-    transform: translateX(-100%);
+    transform: translateX(-40vw);
   }
   80%, 100% 
   {
